@@ -1,1 +1,1 @@
-alert("Welcome to my Portfolio!\nThis website is still under construction :(\n                                                     -arvinkgc")
+alert("Welcome to my Portfolio!\nThis website is still under construction :(\n-arvinkgc")
