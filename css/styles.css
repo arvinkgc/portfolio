@@ -11756,3 +11756,15 @@ html {
   background-position: bottom;
   background-size: cover;
 }
+
+.AKGC{
+  animation-delay:3s;
+}
+
+.RESUME{
+  animation-delay: 1s;
+}
+
+.PROJECTS{
+  animation-delay: 2s;
+}
