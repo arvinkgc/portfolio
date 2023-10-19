@@ -11750,12 +11750,12 @@ html {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.abovetheFold{
+/* .abovetheFold{
   height:100vh;
-  background: url(/assets/background.jpg);
+  background: url(/assets/tempback.jpg);
   background-position: bottom;
   background-size: cover;
-}
+} */
 
 .AKGC{
   animation-delay:3s;
