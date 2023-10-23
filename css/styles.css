@@ -593,7 +593,7 @@ progress {
 }
 
 .img-fluid {
-  max-width: 35%;
+  max-width: 100%;
   height: auto;
 }
 
@@ -4268,7 +4268,7 @@ textarea.form-control-lg {
 .card-img,
 .card-img-top,
 .card-img-bottom {
-  width: 75%;
+  width: 100%;
 }
 
 .card-img,
@@ -7607,10 +7607,6 @@ textarea.form-control-lg {
 
 .mt-5 {
   margin-top: 3rem !important;
-}
-
-.mt-6{
-  margin-top: 5rem !important;
 }
 
 .mt-auto {
@@ -11555,11 +11551,11 @@ html {
 
 .bg-gradient-primary-to-secondary {
   background-color: #1e30f3;
-  background-image: linear-gradient(0deg, #1e30f3 0%, #2AF598 100%);
+  background-image: linear-gradient(135deg, #1e30f3 0%, #000d86 100%);    
 }
 
 .text-gradient {
-  background: linear-gradient(0deg, #1e30f3 0%, #2AF598 100%);
+  background: linear-gradient(315deg, #1e30f3 0%, #000d86 100%);
   -webkit-background-clip: text;
   /* addition */
   background-clip: text;
@@ -11748,23 +11744,4 @@ html {
 .card:hover {
   transform: scale(1.05);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-/* .abovetheFold{
-  height:100vh;
-  background: url(/assets/tempback.jpg);
-  background-position: bottom;
-  background-size: cover;
-} */
-
-.AKGC{
-  animation-delay:3s;
-}
-
-.RESUME{
-  animation-delay: 1s;
-}
-
-.PROJECTS{
-  animation-delay: 2s;
 }
