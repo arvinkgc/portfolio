@@ -11623,7 +11623,7 @@ header{
   background-image: linear-gradient(270deg, #21D4FD 0%, #B721FF 100%);
   margin-bottom: -150px;
 }
-.cta-wrapper{
+.cta-wrapper,.customfooter{
   background-color: #21D4FD;
   background-image: linear-gradient(270deg, #21D4FD 0%, #B721FF 100%);
 }
