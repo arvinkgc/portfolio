@@ -11638,3 +11638,90 @@ header{
 .emphasis-text{
   color: #fff724;
 }
+
+/* LOADER CSS */
+
+.loader-container {
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width:100wv;
+  background:#EEE;
+}
+
+.loader-logo {
+  text-align:center;
+  color: #222;
+  margin:0;
+  font-family: 'Montserrat', 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size:1em;
+  font-weight:800;
+  text-transform: uppercase;
+}
+
+/* Loading Dots */
+
+.loading span {
+  display: inline-block;
+  vertical-align: middle;
+  width: .6em;
+  height: .6em;
+  margin: .19em;
+  background: #B721FF;
+  border-radius: .6em;
+  animation: loading 1s infinite alternate;
+}
+
+/* Dots Colors */
+
+.loading span:nth-of-type(2) {
+  background: #a23aff;
+  animation-delay: 0.2s;
+}
+.loading span:nth-of-type(3) {
+  background: #855dfe;
+  animation-delay: 0.4s;
+}
+.loading span:nth-of-type(4) {
+  background: #697efe;
+  animation-delay: 0.6s;
+}
+.loading span:nth-of-type(5) {
+  background: #4e9efd;
+  animation-delay: 0.8s;
+}
+.loading span:nth-of-type(6) {
+  background: #35bbfd;
+  animation-delay: 1.0s;
+}
+.loading span:nth-of-type(7) {
+  background: #21D4FD;
+  animation-delay: 1.2s;
+}
+
+/* Animation keyframes */
+
+@keyframes loading {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#content-container{
+  display: none;
+}
+
+html, body{
+  cursor:url(../assets/cursor.png)16 16, auto;
+}
+a, a.btn, button, button.btn, #submitButton {
+  cursor:url(../assets/pointer.png)16 16, pointer;
+}
+input, textarea {
+  cursor:url(../assets/input.png)16 16, auto;
+}
