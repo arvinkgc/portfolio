@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
 // Changing Text JS
 
 var typed = new Typed("#auto-type", {
-strings: ['Web Developer.', 'Freelancer.', 'Web Designer.'],
+strings: ['Shopify Developer.', 'E-commerce Specialist.', 'Funnel Builder.'],
 typeSpeed: 100,
 backSpeed: 100,
 loop: true,
